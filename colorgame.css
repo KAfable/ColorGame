@@ -1,0 +1,79 @@
+.square {
+  width: 30%;
+  background-color: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 20%;
+  transition: background 0.6s;
+  -webkit-transition: background 0.6s;
+  -moz-transition: background 0.6s;
+}
+
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  line-height: 1.1;
+  color: white;
+  background-color: cornflowerblue;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+#pickerContainer {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#menu {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+.selected {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#squareFour,
+#squareFive,
+#squareSix {
+  display: none;
+}
+
+#colorDisplay {
+  font-size: 200%;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: inherit;
+  color: cornflowerblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background-color: cornflowerblue;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
